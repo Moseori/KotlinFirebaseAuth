@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "525110086076",
+    "firebase_url": "https://dicon-e79a6.firebaseio.com",
+    "project_id": "dicon-e79a6",
+    "storage_bucket": "dicon-e79a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525110086076:android:e9afaa1a12766b3d",
+        "android_client_info": {
+          "package_name": "com.example.Dicon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525110086076-0quj1lt2j8017ic1bpdo9jrdraripalf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.Dicon",
+            "certificate_hash": "763a1f07a44aed213280dda210311ddc0af6df83"
+          }
+        },
+        {
+          "client_id": "525110086076-6jsnnjunhscrkfo6ugjrutvvluaka3t1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt9mruK0W48nr1GUbgnBuI205vN9ZmLKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525110086076-6jsnnjunhscrkfo6ugjrutvvluaka3t1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
