@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import com.google.firebase.auth.FirebaseAuth
 
@@ -15,11 +16,15 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        mAuth = FirebaseAuth.getInstance()
+
         registerBtn = findViewById(R.id.registerBtn)
         loginBtn = findViewById(R.id.loginBtn)
 
         //회원가입 버튼을 누를시
         registerBtn?.setOnClickListener {
+            Log.e("asd", "Asd")
             val intent = Intent(this@MainActivity, RegisterActivity::class.java)
             startActivity(intent)
         }
