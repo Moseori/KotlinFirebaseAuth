@@ -17,7 +17,7 @@
         android:id="@+id/passwordLogin"/>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
             android:layout_width="wrap_content"
@@ -30,4 +30,9 @@
             android:id="@+id/loginBtn"
             android:text="login"/>
     </LinearLayout>
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/googleLoginBtn"/>
 </LinearLayout>
